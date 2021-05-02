@@ -1,6 +1,6 @@
 fn main() {
   let mut arreglo = [5, 1, 22, 25, 6, -1, 8, 10];
-  let mut secuencia = [1, 6, -1, 10];
+  let mut secuencia = [1, 5, -1, 10];
   
   println!("{}", es_sub_secuencia(&mut arreglo, &mut secuencia));
 }
